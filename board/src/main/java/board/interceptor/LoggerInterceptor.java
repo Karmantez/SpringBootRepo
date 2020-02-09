@@ -26,7 +26,7 @@ public class LoggerInterceptor extends HandlerInterceptorAdapter {
 	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
 			ModelAndView modelAndView) throws Exception {
 
-		log.debug("===============================END====================================");
+		log.debug("================================END=====================================");
 		super.postHandle(request, response, handler, modelAndView);
 	}
 }
